@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+
+  --body-colors: #e4e9f7;
+  --sidebar-colors: #fff;
+  --primary-colors: #695cfe;
+  --primary-colors-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-colors: #707070;
+  --logo-color: #fe6307;
+  --base-color: #242424;
+
+  /* Transition */
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--base-color);
+}
+
+/* index.php */
+
+.insertion {
+  margin: 0 auto;
+
+  height: auto;
+  width: 50%;
+}
+
+.form-floating button {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #1b1b1b;
+  border: none;
+}
+
+form-floating label {
+  font-size: 12px;
+}
+
+/* card */
+
+.card .card-body {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  height: 100%;
+}
+
+.card-body {
+  margin: 0 auto;
+  height: auto;
+  width: 70%;
+  height: 70%;
+}
+
+.card {
+  margin: 0 auto;
+  height: auto;
+  width: 70%;
+  height: 70%;
+}
+
+.btn-group {
+  width: 80%;
+  height: 40%;
+}
+
+.limited-lines {
+  max-width: 400px; /* adjust width as needed */
+  margin: 0 auto; /* center the block */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em; /* 2 lines * line-height */
+  word-break: break-word;
+ font-size: 13px;
+}
